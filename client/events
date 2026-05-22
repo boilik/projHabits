@@ -1,0 +1,7 @@
+const newhabit = document.getElementById("newhabit")
+const addhabitblock =document.getElementById("addhabitblock")
+newhabit.addEventListener('click',()=>{
+    addhabitblock.classList.add('show')
+})
+
+
